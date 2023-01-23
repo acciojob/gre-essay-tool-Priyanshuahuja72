@@ -1,6 +1,6 @@
 //your code here
-var count = document.getElementById('count');
-var input = document.getElementById('input');
+var count = document.getElementById('wordCount');
+var input = document.getElementById('evaluatedText');
 function isWord(str) {
   var alphaNumericFound = false;
   for (var i = 0; i < str.length; i++) {
